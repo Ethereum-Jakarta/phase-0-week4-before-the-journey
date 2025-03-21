@@ -8,6 +8,7 @@ Implementasikan function sorting dan getTotal untuk mendapatkan angka yang palin
 
 Dengan HANYA mengubah code di dalam 2 function yang diberikan (sorting dan getTotal). Dilarang mengubah isi dalam function mostFrequentLargestNumbers!
 */
+
 function sorting(arrNumber) {
   // code di sini
 }
