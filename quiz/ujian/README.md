@@ -8,6 +8,7 @@ lalu bila sudah mencapai kyu 6 harus ngapain?
 - SS bukti kalian sudah mencapai kyu 6 dan simpan SS kalian di folder ini
 - berkabar ke sepuh nolep (admin) di [Discord RPN](https://discord.gg/ufbRBRTKN8)
 
-nanti kita akan tentuin waktu yang nyaman
+  <img src="./Screenshot (117).png">
 
+nanti kita akan tentuin waktu yang nyaman
 Good Luck
