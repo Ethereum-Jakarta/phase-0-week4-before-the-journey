@@ -9,4 +9,4 @@ Lalu bila sudah mencapai kyu 6 harus ngapain?
 
 Nanti kita akan tentuin waktu yang nyaman untuk live code session.
 
-**Good Luck, Etherean!** 🧙‍♂️
+**Good Luck, Etherean!** 🧙‍♂️![alt text](image.png)
