@@ -10,6 +10,15 @@ Dengan HANYA mengubah code di dalam 2 function yang diberikan (sorting dan getTo
 */
 function sorting(arrNumber) {
   // code di sini
+  for (let i = 0; i < arrNumber.length - 1; i++) {
+    for (let j = 0; j < arrNumber.length - i - 1; j++) {
+      if(arrNumber[j] > arrNumber[j + 1]) {
+        let temp = arrNumber[j];
+        arrNumber[j] = arrNumber[j + 1];
+        arrNumber[j + 1] = temp;
+      }
+    }
+  }
 }
 
 function getTotal(arrNumber) {
