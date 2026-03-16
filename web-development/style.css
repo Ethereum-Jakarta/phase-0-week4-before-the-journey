@@ -1,0 +1,154 @@
+:root {
+    --primary-color: #5b84d4;
+    --secondary-color: #f0f0f0;
+    --warning-color: #ff0000;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+header {
+    padding-inline: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    /*display: none;*/
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.search input {
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 24px;
+}
+
+.add-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add-todo input {
+    padding: 7px 10px;
+    border: 2px solid var(--primary-color);
+    font-size: 20px;
+    border-radius: 24px;
+    width: 80%;
+}
+
+.add-todo button {
+    padding: 10px;
+    width: 42px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* List */
+.list-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.list-todo ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value-list {
+    display: flex;
+    align-items: center;
+}
+
+li .completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li input {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+li span {
+    font-size: 20px;
+}
+
+li button {
+    background-color: var(--warning-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: auto;
+}
