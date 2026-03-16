@@ -1,7 +1,9 @@
 # Quiz Rekursi | Part 1
-***Pada quiz kali ini soal Rekursi hanya ada pada soal no 3 - 5***
+
+**_Pada quiz kali ini soal Rekursi hanya ada pada soal no 3 - 5_**
 
 ## Soal 1
+
 ```js
 /*
 Implementasikan function sorting dan getTotal untuk mendapatkan angka yang paling besar dan mengetahui berapa kali angka tersebut muncul di dalam arrNumber.
@@ -25,7 +27,9 @@ function mostFrequentLargestNumbers(arrNumber) {
 console.log(mostFrequentLargestNumbers([2, 8, 4, 6, 8, 5, 8, 4]));
 //'angka paling besar adalah 8 dan jumlah kemunculan sebanyak 3 kali'
 
-console.log(mostFrequentLargestNumbers([122, 122, 130, 100, 135, 100, 135, 150]));
+console.log(
+  mostFrequentLargestNumbers([122, 122, 130, 100, 135, 100, 135, 150])
+);
 //'angka paling besar adalah 150 dan jumlah kemunculan sebanyak 1 kali'
 
 console.log(mostFrequentLargestNumbers([1, 1, 1, 1]));
@@ -36,6 +40,7 @@ console.log(mostFrequentLargestNumbers([]));
 ```
 
 ## Soal 2
+
 ```js
 /*
 Diberikan function changeVocals, reverseWord, setLowerUpperCase, removeSpaces, dan passwordGenerator
@@ -50,34 +55,36 @@ Gunakan function setLowerUpperCase untuk mengganti huruf besar menjadi kecil dan
 
 Gunakan function removeSpaces untuk menghilangkan semua spasi di dalam string yang sudah kita manipulasi
 */
-function changeVocals (str) {
+function changeVocals(str) {
   //code di sini
 }
 
-function reverseWord (str) {
+function reverseWord(str) {
   //code di sini
 }
 
-function setLowerUpperCase (str) {
+function setLowerUpperCase(str) {
   //code di sini
 }
 
-function removeSpaces (str) {
+function removeSpaces(str) {
   //code di sini
 }
 
-function passwordGenerator (name) {
+function passwordGenerator(name) {
   //code di sini
 }
 
-console.log(passwordGenerator('Sergei Dragunov')); // 'VPNVGBRdJFGRFs'
-console.log(passwordGenerator('Dimitri Wahyudiputra')); // 'BRTVPJDVYHBwJRTJMJd'
-console.log(passwordGenerator('Alexei')); // 'JFXFLb'
-console.log(passwordGenerator('Alex')); // 'Minimal karakter yang diinputkan adalah 5 karakter'
+console.log(passwordGenerator("Sergei Dragunov")); // 'VPNVGBRdJFGRFs'
+console.log(passwordGenerator("Dimitri Wahyudiputra")); // 'BRTVPJDVYHBwJRTJMJd'
+console.log(passwordGenerator("Alexei")); // 'JFXFLb'
+console.log(passwordGenerator("Alex")); // 'Minimal karakter yang diinputkan adalah 5 karakter'
 ```
 
 ## Soal 3
-***INI SOAL PAS GUA INTERVIEW DI PERUSAHAAN FIVE JACK (YG PUNYA ITEMKU.COM) DAN GUA GAGAL PERKARA MALAH PAKE LOOPING WKWKWKW***
+
+**_INI SOAL PAS GUA INTERVIEW DI PERUSAHAAN FIVE JACK (YG PUNYA ITEMKU.COM) DAN GUA GAGAL PERKARA MALAH PAKE LOOPING WKWKWKW_**
+
 ```js
 /*
 Seorang customer sedang makan di sebuah restaurant AYCE(All You Can Eat). Dia akan terus makan sampai waktu yang diberikan oleh restaurant tersebut habis. Setiap customer memesan/mengambil makanan dan memakan pesanannya maka waktu customer berkurang 15 menit. Begitu seterusnya sampai waktunya habis .Customer masih bisa memesan/mengambil makanan selama waktunya belum 0.
@@ -106,6 +113,7 @@ console.log(makanTerusRekursif(0)); // 0
 ```
 
 ## Soal 4
+
 ```js
 /*
 Diberikan sebuah function totalDigitRekursif(angka) yang menerima satu parameter berupa angka. Function akan me-return nilai total dari digit tersebut dengan menambahkan satu per satu angka dari digit paling depan ke paling belakang. Wajib menggunakan rekursif untuk berlatih rekursif! Disarankan untuk tidak menggunakan looping for untuk soal ini.
@@ -128,6 +136,7 @@ console.log(totalDigitRekursif(11111)); // 5
 ```
 
 ## Soal 5
+
 ```js
 /*
 Diberikan sebuah function kaliTerusRekursif(angka) yang menerima satu parameter berupa angka. Function akan memproses angka yang lebih dari satu digit menjadi satu digit dengan melakukan perkalian. Bila masih lebih dari satu digit, terus lakukan perkalian setiap digit-nya untuk pada akhirnya mendapatkan satu digit. Wajib menggunakan rekursif untuk berlatih rekursif, namun kamu boleh menggunakan looping juga disini.

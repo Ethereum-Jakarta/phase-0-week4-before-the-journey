@@ -1,7 +1,9 @@
 # Quiz Git Branch | Part 2
-***Pada quiz kali ini wajib push ke branch baru kamu***
+
+**_Pada quiz kali ini wajib push ke branch baru kamu_**
 
 ## Soal 1
+
 ```js
 /*
 Diberikan function attack(), damageCalculation().
@@ -15,11 +17,11 @@ Function attack() akan menerima 1 parameter yaitu damage
 Karena attack akan dikurangi 2, maka setiap attack akan menghasilkan damage 8
 */
 
-function attack (damage) {
+function attack(damage) {
   // Code disini
 }
 
-function damageCalculation (numberOfAttacks, damagePerAttack) {
+function damageCalculation(numberOfAttacks, damagePerAttack) {
   // Code disini
 }
 
@@ -30,7 +32,9 @@ console.log(damageCalculation(10, 4)); // 20
 
 console.log(damageCalculation(5, 20)); // 90
 ```
+
 ## Soal 2
+
 ```js
 /*
 Diberikan function meleeRangedGrouping yang menerima 1 parameter berupa string, implementasikan meleeRangedGrouping agar dapat menghasilkan multidimensional array seperti yang diminta.
@@ -42,17 +46,23 @@ Output yang diharapkan: [ [ <daftar_hero_dengan_tipe_ranged> ], [ <daftar_hero_d
 Jika input adalah string kosong ('') maka return array kosong
 */
 
-function meleeRangedGrouping (str) {
+function meleeRangedGrouping(str) {
   //your code here
 }
 
 // TEST CASE
 
-console.log(meleeRangedGrouping('Razor-Ranged,Invoker-Ranged,Meepo-Melee,Axe-Melee,Sniper-Ranged'));
+console.log(
+  meleeRangedGrouping(
+    "Razor-Ranged,Invoker-Ranged,Meepo-Melee,Axe-Melee,Sniper-Ranged"
+  )
+);
 // [ ['Razor', 'Invoker', 'Sniper'], ['Meepo', 'Axe'] ]
 
-console.log(meleeRangedGrouping('Drow Ranger-Ranged,Chen-Ranged,Dazzle-Ranged,Io-Ranged'));
+console.log(
+  meleeRangedGrouping("Drow Ranger-Ranged,Chen-Ranged,Dazzle-Ranged,Io-Ranged")
+);
 // [ ['Drow Ranger', 'Chen', 'Dazzle', 'Io'], [] ]
 
-console.log(meleeRangedGrouping('')); // []
+console.log(meleeRangedGrouping("")); // []
 ```
