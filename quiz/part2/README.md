@@ -35,7 +35,7 @@ console.log(damageCalculation(5, 20)); // 90
 /*
 Diberikan function meleeRangedGrouping yang menerima 1 parameter berupa string, implementasikan meleeRangedGrouping agar dapat menghasilkan multidimensional array seperti yang diminta.
 
-Format string yang diberikan adalah: <nama_hero>-<tipe_hero>,<nama_hero>-<tipe-hero>, ...
+Format string yang diberikan adalah: <nama_hero>-<tipe_hero>,<nama_hero>-<tipe_hero>, ...
 
 Output yang diharapkan: [ [ <daftar_hero_dengan_tipe_ranged> ], [ <daftar_hero_dengan_tipe_melee> ] ]
 
