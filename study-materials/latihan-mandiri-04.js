@@ -47,3 +47,16 @@ let bikinGreeter = function(pembuka){
     }
 }
 bikinGreeter("Halo")("Andi")
+
+
+//4. Bikin `compose(fn1, fn2)` yang return function baru: `compose(double, addOne)(5)` → `double(addOne(5))` → 12
+let compose = function(fn1,fn2){
+    console.log(fn1(2));
+    console.log(fn2(3))
+    return function(num){
+        return fn1(fn2(num));
+    };
+}
+let double = function (num) {return 2*num};
+let addOne = function (num) {return num+1};
+console.log(compose(double, addOne)(4));
